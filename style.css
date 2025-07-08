@@ -1,5 +1,6 @@
 * {
-    margin: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -13,6 +14,61 @@ a {
     justify-content: space-between;
 
     font-family: 'Poppins';
+    margin: 20px;
 }
 
-.logo {}
+.nav-header {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.get-template {
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+/* ---------- Стили для site-bottom-header ---------- */
+
+.site-bottom-header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #ECE7E4;
+    width: 100%;
+    height: 850px;
+}
+
+.text-bottom-header {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poppins';
+    padding: 150px;
+}
+
+.logo-bottom-header {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.heading-bottom-header {
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.bottom-text-bottom-header {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.button-bottom-header {
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 30px;
+}
