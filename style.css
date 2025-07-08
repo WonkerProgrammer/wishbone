@@ -72,3 +72,47 @@ a {
     padding: 15px;
     margin-top: 30px;
 }
+
+/*---------- Стили для confirm ----------*/
+
+.confirm-elements {
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    font-family: 'Poppins';
+    margin-top: 50px;
+}
+
+.name-confirm-elements {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-confirm-elements {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stephen-text-confirm-elements {
+    gap: 20px;
+    display: flex;   
+}
+
+.image-stephen-text-confirm-elements {
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid #CEC4BC;
+    width: 80px;
+    height: 80px;
+}
+
+.text-stephen-text-confirm-elements {
+    margin-top: 15px;
+}
+
+.job-text-stephen-text-confirm-elements {
+    font-weight: 300;
+}
