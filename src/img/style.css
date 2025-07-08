@@ -1,0 +1,18 @@
+* {
+    margin: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.site-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    font-family: 'Poppins';
+}
+
+.logo {}
