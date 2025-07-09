@@ -117,7 +117,7 @@ a {
     font-weight: 300;
 }
 
-/* Стили для reading-house */
+/*---------- Стили для reading-house ---------- */
 
 .reading-house {
     display: flex;
@@ -141,4 +141,61 @@ a {
     font-size: 22px;
     margin-right: 180px;
     right: 0;
+}
+
+/*---------- Стили для our process ----------  */
+
+.head-our-process {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+    font-family: 'Poppins';
+}
+
+.heading-head-our-process {
+    font-weight: 200;
+}
+
+.text-head-our-process {
+    font-size: 40px;
+}
+
+/*--------------------------------------------*/
+
+.main-our-process {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 60px;
+    font-family: 'Poppins';
+}
+
+.sketching-main-our-process, .finalizing-main-our-process, .building-main-our-process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.text-sketching-main-our-process, .text-finalizing-main-our-process, .text-building-main-our-process {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.heading-text-sketching-main-our-process, .heading-text-finalizing-main-our-process, .heading-text-building-main-our-process {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.text-text-sketching-main-our-process, .text-text-finalizing-main-our-process, .text-text-building-main-our-process {
+    font-weight: 200;
 }
