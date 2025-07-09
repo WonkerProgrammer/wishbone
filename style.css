@@ -116,3 +116,29 @@ a {
 .job-text-stephen-text-confirm-elements {
     font-weight: 300;
 }
+
+/* Стили для reading-house */
+
+.reading-house {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    height: fit-content;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.ladder-reading-house {
+    position: relative;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text-reading-house {
+    z-index: 1;
+    position: absolute;
+    font-size: 22px;
+    margin-right: 180px;
+    right: 0;
+}
